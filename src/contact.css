@@ -1,0 +1,18 @@
+.foot-social {
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+button{
+    background-color: transparent;
+    border-style: none;
+    color: khaki;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.2, 1.2);
+    transition: ease-out 0.3s;
+}
