@@ -80,7 +80,7 @@ span{
   z-index: 2;
 }
 .projects a{
-  width: 100%;
+  width: 48%;
   color: inherit;
 }
 .projects-container {
@@ -98,13 +98,13 @@ span{
   background-position: right;
   cursor: pointer;
   border-style: groove; 
-  box-shadow: 4px 4px #302c2c;
+  box-shadow: 2px 4px #302c2c;
   margin-bottom: 10px;
 }
-.projects a:nth-child(odd) {
+.projects .project:nth-child(2n+0) {
   background-color: #889e81;
 }
-.projects a:nth-child(even) {
+.projects .project:nth-child(2n+1) {
   background-color: #bac7a7;
 }
 .project-desc {
